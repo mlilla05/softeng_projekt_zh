@@ -50,8 +50,7 @@
 - `1x1p` A weboldal javascriptet használ API végpont által szolgáltatott adatok betöltésére, hozott anyagként. A fetch API-val betöltött adatokkal működik a dinamikus tartalom frissítése.
 - `1x1p` A weboldal javascriptje más funkciót is ellát, mint az adatok betöltése (például rekordok hozzáadása, törlése és módosítása). A POST, DELETE, és PUT funkciók is implementálva vannak a JavaScriptben.
 ##### Egyéb
-- `2x1p` Scaffold-DbContext használata: Scaffold-DbContext "Data Source=bit.uni-corvinus.hu;Initial Catalog=Etkeztetes;User ID=hallgato;Password=Password123;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context ReceptDbContext
-![Scaffold-DbContext használata](scaffold.png)
+- `2x1p` Scaffold-DbContext használata: Scaffold-DbContext "Data Source=bit.uni-corvinus.hu;Initial Catalog=Etkeztetes;User ID=hallgato;Password=***;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context ReceptDbContext
 **Windows Forms Application rész:** 28/28
 **ASP .NET rész:** 38/38
 **Egyéb (scaffold):** 2/2
